@@ -9,15 +9,20 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `👋 I am Duli`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Duli`,
+      summary: `I am a builder, writer and a nomad.`,
+      test: "helo",
+      more: [
+        `Started working when I was 15 building an ERP to a large shoe manefacturer`,
+        `Started working when I was 15 building an ERP to a large shoe manefacturer`
+      ]
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Essays. Startups. Travels.`,
+    siteUrl: `https://dulitha.dev`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `dulitharw`,
     },
   },
   plugins: [

@@ -16,7 +16,8 @@ const Bio = () => {
         siteMetadata {
           author {
             name
-            summary
+            summary,
+            more
           }
           social {
             twitter
@@ -32,25 +33,33 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      />
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
+       {author?.name && (
+        <>
+         <p>
+          {author?.summary}
+          <br />
+          <span className="more">Some more things,</span>
+          
+          <ul >
+             {author?.more?.length > 0 && author.more.map((item, index) => (
+                <li key={index}>{item}</li>
+             ))}
+           </ul>
+          
+         
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+            Check my Twitter
           </a>
+
         </p>
+        <p>
+        
+        </p>
+        </>
       )}
+
+    
+     
     </div>
   )
 }
