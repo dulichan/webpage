@@ -1,7 +1,7 @@
 ---
 title: Exploration of Stillness
 date: "2023-10-29T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: I am listening to the book of Ryan Holiday on Stillness and realized that it's an exploration I have to make. 
 ---
 
 I am listening to the book of Ryan Holiday on Stillness and realized that it's an exploration I have to make. 

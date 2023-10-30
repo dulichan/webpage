@@ -16,7 +16,10 @@ module.exports = {
       test: "helo",
       more: [
         `Started working when I was 15 building an ERP to a large shoe manefacturer`,
-        `Started working when I was 15 building an ERP to a large shoe manefacturer`
+        `Built the world's first opensource MDM solution`,
+        `Worked as a consultant to Fortune 500 companies before the age 21`,
+        `Built a remote team building company scaling to 50+ people`,
+        `Currently building a Sales Tech product`
       ]
     },
     description: `Essays. Startups. Travels.`,
